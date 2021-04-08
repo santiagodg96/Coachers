@@ -1,0 +1,315 @@
+.container-fluid{
+   padding-left:0;
+   padding-right:0;
+}
+
+.header{
+    height: 100%vh;
+    padding: 10%;
+    margin-top:40px;
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/header.jpg);  
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: Helvetica;
+    font-weight: bold;
+    }
+        
+.subtitulo{
+    text-align: center;
+    color: black;
+    font-family: "Redressed";
+    font-size: 30px;
+    }
+
+.subtitulo2{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 25px;  
+    text-align: center;  
+    font-family: Helvetica;
+    font-weight: bold;
+    }  
+    
+.parental{
+    display:block;  
+    margin-top:30px;  
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+            
+.data{
+    text-align: justify;    
+    font-size:20px;
+    padding-right: 15px; 
+    padding-left: 15px;
+    font-family: Helvetica;
+    }
+
+.subtitulo3{
+   margin-top:40px;
+   font-size: 25px;  
+   text-align: center;  
+   font-family: Helvetica;
+   font-weight: bold;
+        } 
+        
+.data2{
+    text-align: justify;  
+    font-family: Helvetica;  
+    font-size:20px;
+    margin-top:30px;
+    margin-bottom:40px;
+    padding-right: 15px; 
+    padding-left: 15px;
+    }
+
+.avatar{
+    margin-top: 40px;
+    width:250px; 
+    height: 250px;  
+        }
+        
+.avatar2{
+    margin-top: 40px;
+    width:250px; 
+    height: 250px;  
+        }
+
+.Daniel{
+   color: white;
+   font-size: 30px; 
+   font-family: "Redressed";
+   margin-top:30px;
+            }
+            
+.Maribel{
+   color: white;
+   font-size: 30px;
+   font-family: "Redressed";
+   margin-top:30px;
+            }
+
+.avatar-data{
+   color: white; 
+   text-align: justify;   
+   font-family: Helvetica;
+   font-size:20px;
+   padding-right: 50px; 
+   padding-left: 50px;
+            }
+
+ .Icon{
+  margin-top:20px;
+  margin-bottom:40px;
+  width:25px; height:25px;  
+            }           
+
+.Luna{
+    display:block;  
+  margin-top:30px;  
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+        }
+
+.Luna-data{
+    text-align: center;
+    color: black;
+    font-family: "Redressed";
+    font-size: 30px;
+    margin-top:40px;
+            }
+
+.Luna-data2, .Luna-data3, .Luna-data4{
+    text-align: justify;
+    font-family: Helvetica;    
+    font-size:20px;
+    font-family: Calibri;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-right: 15px; 
+    padding-left: 15px;
+           }        
+
+ .comilla{
+    text-align: center;
+    color:rgb(0, 204, 255);
+    font-family: "Redressed";
+    font-size: 60px; 
+ }          
+
+ .Luna-data5 {
+     text-align: center;    
+     font-family: Helvetica;
+     font-size:30px;
+     padding-right: 15px; 
+     padding-left: 15px;
+     color: white;
+ }
+
+ .firma{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Redressed";
+    font-size: 60px; 
+    margin-top: 30px;
+ }
+
+ .wall{
+    margin-top: 30px;
+    height: 100%vh;
+    padding: 10%;
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/maribel-wall.png);  
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;     
+ }
+
+ .fotografa{
+    text-align: center;    
+    font-size:15px;
+ }
+
+ .testigo-comilla{
+    text-align: left;
+    color:rgb(0, 204, 255);
+    font-family: "Redressed";
+    font-size: 60px; 
+    padding-right: 20px; 
+    padding-left: 20px;
+ }     
+ 
+ .testigo-name{
+    color: white;
+    font-size: 25px;  
+    margin-top:30px;
+ }
+
+ .testigo-ocupacion{
+    color: white;
+    font-size: 20px; 
+    font-style: italic; 
+    font-family: Helvetica;
+
+ }
+
+ .testigo-data{
+    text-align: justify;  
+    font-family: Helvetica;  
+    font-size:20px;
+    padding-right: 20px; 
+    padding-left: 20px;
+    margin-bottom:30px;
+    color: white;
+ }   
+
+ .testigo{
+    display:block;  
+    width: 120px; height: 120px;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .footer-coachers{
+    margin-top:15px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+ }
+
+ .footer-sub{
+    text-align: center;
+    color: white;
+    font-family: "Redressed";
+    font-size: 20px;
+    }
+
+ .footer-correo{
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+    font-family: "Helvetica";
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }   
+
+  .Icon-footer{
+    width:25px; height:25px;  
+ }   
+
+    .footer-autor{
+        margin-top: 35px; 
+        text-align: center;
+        color: white;
+        font-family: "Helvetica";
+        font-size: 15px;
+        }   
+
+ .footer-autor-email{
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+    font-family: "Helvetica";
+    font-style: italic;
+    font-size: 15px;
+ }
+
+ .footer-derechos{
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(0, 204, 255);
+    font-family: "Helvetica";
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+
+ .footer-maribel{
+    text-align: center;
+    color: white;
+    font-family: "Redressed";
+    font-size: 40px;
+    margin-top: 25px;
+ }
+
+ .footer-web{
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+    font-family: "Helvetica";
+    font-style: italic;
+    font-size: 15px;
+ }
+
+ .whatsapp {
+   position:fixed;
+   width:60px;
+   height:60px;
+   bottom:40px;
+   right:40px;
+   background-color:#25d366;
+   color:#FFF;
+   border-radius:50px;
+   text-align:center;
+   font-size:30px;
+   z-index:100;
+ }
+ 
+ .whatsapp-icon {
+   margin-top:13px;
+ }
+ 
+
+ 
