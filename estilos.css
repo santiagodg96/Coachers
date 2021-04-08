@@ -7,7 +7,7 @@
     height: 100%vh;
     padding: 10%;
     margin-top:40px;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/header.jpg);  
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/Elementos.jpg);  
     background-repeat: no repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -72,13 +72,13 @@
     padding-left: 15px;
     }
 
-.avatar{
+.Avatar{
     margin-top: 40px;
     width:250px; 
     height: 250px;  
         }
         
-.avatar2{
+.Avatar2{
     margin-top: 40px;
     width:250px; 
     height: 250px;  
@@ -168,7 +168,7 @@
     margin-top: 30px;
     height: 100%vh;
     padding: 10%;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/maribel-wall.png);  
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/Maribelwall.png);  
     background-repeat: no repeat;
     background-size: cover;
     background-attachment: fixed;
