@@ -7,7 +7,7 @@
     height: 100%vh;
     padding: 10%;
     margin-top:40px;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/Cabecera.png);  
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(https://images.unsplash.com/photo-1515322158713-b15a3534f6ab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1525&q=80);  
     background-repeat: no repeat;
     background-size: cover;
     background-attachment: fixed;
