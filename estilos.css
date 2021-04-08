@@ -7,7 +7,7 @@
     height: 100%vh;
     padding: 10%;
     margin-top:40px;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/Elementos.jpg);  
+    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(../Coachers/elementos/Cabecera.jpg);  
     background-repeat: no repeat;
     background-size: cover;
     background-attachment: fixed;
