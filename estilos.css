@@ -3,6 +3,24 @@
    padding-right:0;
 }
 
+.navbar-brand
+{
+    position:absolute;
+    width:100%;
+    left:0;
+    text-align:center;
+    margin:auto;
+}
+
+.navbar-collapse collapse justify-content-center order-2
+{
+   position:absolute;
+   width:100%;
+   left:0;
+   text-align:center;
+   margin:auto;
+}
+
 .header{
     height: 100%vh;
     padding: 10%;
@@ -73,13 +91,11 @@
     }
 
 .Avatar{
-    margin-top: 40px;
     width:250px; 
     height: 250px;  
         }
         
 .Avatar2{
-    margin-top: 40px;
     width:250px; 
     height: 250px;  
         }
@@ -89,6 +105,7 @@
    font-size: 30px; 
    font-family: "Redressed";
    margin-top:30px;
+   margin-bottom:30px;
             }
             
 .Maribel{
@@ -96,6 +113,7 @@
    font-size: 30px;
    font-family: "Redressed";
    margin-top:30px;
+   margin-bottom:30px;
             }
 
 .avatar-data{
@@ -126,7 +144,7 @@
     color: black;
     font-family: "Redressed";
     font-size: 30px;
-    margin-top:40px;
+    margin-bottom:30px;
             }
 
 .Luna-data2, .Luna-data3, .Luna-data4{
