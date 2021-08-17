@@ -31,7 +31,7 @@ nav ul {
    line-height: inherit;
    cursor: pointer;
    text-decoration: none;
-   font-size:13px;
+   font-size:15px;
    font-weight: bold;
    color: white;
  }
@@ -162,6 +162,10 @@ nav ul {
    margin-bottom:30px;
             }
 
+.Maribel:hover{
+   color: rgb(0, 165, 206);
+}
+
 .avatar-data{
    color: white; 
    text-align: justify;
@@ -211,6 +215,7 @@ nav ul {
     font-family: "Redressed";
     font-size: 30px;
     margin-bottom:30px;
+    margin-top:15px;
             }
 
 .Luna-data2, .Luna-data3, .Luna-data4{
@@ -253,6 +258,10 @@ nav ul {
     font-size: 60px; 
     margin-top: 20px;
     text-shadow: 1px 1px 2px black;
+ }
+
+ .firma:hover{
+   color: rgb(0, 165, 206);
  }
 
  .wall{
@@ -369,6 +378,10 @@ nav ul {
     font-family: "Redressed";
     font-size: 40px;
     margin-top: 25px;
+ }
+
+ .footer-maribel:hover{
+   color: rgb(0, 165, 206);
  }
 
  .footer-web{
