@@ -1,420 +1,433 @@
-*{
-font-family:'Roboto';
-font-weight: lighter;
+* {
+  font-family: "Roboto";
+  font-weight: lighter;
 }
 
-.container-fluid{
+.container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;
   width: 100% !important;
 }
- 
+
 nav ul {
-   list-style: none;
-   padding-left: 0;
-   margin-top: 0;
-   margin-bottom: 0;
- }
- 
- .nav {
-   width: 100%;
-   margin: 0 auto;
-   color: white;
-   background: black;
-   justify-content: center;
-   display: flex;
-   position: fixed;
- }
- .nav a {
-   display: block;
-   padding: 0 16px;
-   line-height: inherit;
-   cursor: pointer;
-   text-decoration: none;
-   font-size:15px;
-   font-weight: bold;
-   color: white;
- }
- 
- .nav__menu {
-   line-height: 45px;
-   font-weight: 700;
-   text-transform: uppercase;
- }
- .nav__menu-item {
-   display: inline-block;
-   position: relative;
- }
- .nav__menu-item:hover {
-   background-color: rgb(0, 204, 255)
- }
- .nav__menu-item:hover .nav__submenu {
-   display: block;
- }
- .nav__submenu {
-   font-weight: 300;
-   text-transform: none;
-   display: none;
-   position: absolute;
-   width: 220px;
-   background-color: rgb(0, 204, 255)
- }
- .nav__submenu-item:hover {
-   background: rgba(0, 0, 0, 0.1);
- }
- 
-.header{
-    height: 100%vh;
-    padding: 20%;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.507) 0%, rgba(143, 210, 244, 0.507) 100%), url(https://images.unsplash.com/photo-1489908990827-08a75c580832?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);  
-    background-repeat: no repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    }
-    
-.titulo{
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    font-family: Helvetica;
-    font-weight: bold;
-    }
-        
-.subtitulo{
-    text-align: center;
-    color: black;
-    font-family: "Redressed";
-    font-size: 30px;
-    }
-
-.subtitulo2, .subtitulo3{
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 25px;  
-    text-align: center;  
-    }  
-    
-.yoga{
-    display:block;  
-    margin-top:30px;  
-    margin-bottom:30px;  
-    max-width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    }
-            
-.data{
-    text-align: justify; 
-    font-size:20px;
-    padding-right: 15px; 
-    padding-left: 15px;
-    }
-        
-.data2{
-    text-align: justify;
-    font-size:20px;
-    margin-top:30px;
-    margin-bottom:40px;
-    padding-right: 15px; 
-    padding-left: 15px;
-    }
-
- .brainsub{
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 23px;  
-    text-align: center;  
- }
-
-.brain{
-      display:block;    
-      max-width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-      }
-
-.avatar{   
-   margin-top:20px;
-   width:230px; 
-   height: 230px;  
-        }
-        
-.avatar2{
-    margin-top:20px;
-    width:230px; 
-    height: 230px;  
-        }
-
-.Daniel{
-   color: white;
-   font-size: 30px; 
-   font-family: "Redressed";
-   margin-top:30px;
-   margin-bottom:30px;
-            }
-            
-.Maribel{
-   color: white;
-   font-size: 30px;
-   font-family: "Redressed";
-   margin-top:30px;
-   margin-bottom:30px;
-            }
-
-.Maribel:hover{
-   color: rgb(0, 165, 206);
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.avatar-data{
-   color: white; 
-   text-align: justify;
-   font-size:20px;
-   padding-right: 50px; 
-   padding-left: 50px;
-            }
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  background: black;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+}
+.nav a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
 
- .Icon{
-  margin-top:20px;
-  margin-bottom:40px;
-  width:25px; height:25px;  
-            }   
-            
- .garantia-icon{
-  width: 140px;  
- }           
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav__menu-item:hover {
+  background-color: rgb(0, 204, 255);
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: rgb(0, 204, 255);
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
 
- .garantia-icon:hover{
-   animation: bounce 1s linear;
- }
- 
- @keyframes bounce{
-   20%,50%,80%, to{
-          transform: translateY(0);
-        }
-        40%
-        {
-          transform: translateY(-20px);
-        }
-        70%{
-          transform: translateY(-10px);
-      }
-      }
+.header {
+  height: 100%vh;
+  padding: 20%;
+  background-image: linear-gradient(
+      to top,
+      rgba(132, 250, 175, 0.507) 0%,
+      rgba(143, 210, 244, 0.507) 100%
+    ),
+    url(https://i.postimg.cc/FRLTzJW1/wall-new.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
 
-.Luna{
-    display:block;  
-  margin-top:30px;  
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.subtitulo {
+  text-align: center;
+  color: black;
+  font-family: "Redressed";
+  font-size: 30px;
+}
+
+.subtitulo2,
+.subtitulo3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.yoga {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data {
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.data2 {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.brainsub {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.brain {
+  display: block;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  margin-top: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+.avatar2 {
+  margin-top: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+.Daniel {
+  color: white;
+  font-size: 30px;
+  font-family: "Redressed";
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Maribel {
+  color: white;
+  font-size: 30px;
+  font-family: "Redressed";
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Maribel:hover {
+  color: rgb(0, 165, 206);
+}
+
+.avatar-data {
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.Icon {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 25px;
+  height: 25px;
+}
+
+.garantia-icon {
+  width: 140px;
+}
+
+.garantia-icon:hover {
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+}
+
+.Luna {
+  display: block;
+  margin-top: 30px;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-        }
-
-.Luna-data{
-    text-align: center;
-    color: black;
-    font-family: "Redressed";
-    font-size: 30px;
-    margin-bottom:30px;
-    margin-top:15px;
-            }
-
-.Luna-data2, .Luna-data3, .Luna-data4{
-    text-align: justify;
-    font-size:20px;
-    margin-top:10px;
-    margin-bottom:10px;
-    padding-right: 15px; 
-    padding-left: 15px;
-           }        
-
- .comilla{
-    text-align: center;
-    color:rgb(0, 204, 255);
-    font-family: "Redressed";
-    font-size: 60px; 
- }          
-
- .Luna-data5 {
-     text-align: center;    
-     font-size:30px;
-     padding-right: 15px; 
-     padding-left: 15px;
-     color: white;
-     text-shadow: 1px 1px 2px black;
- }
-
- .maribel-icon{
-      display:block;
-      margin:auto;
-      width: 70px; 
-      margin-top: 30px;
-      text-shadow: 1px 1px 2px black;
-   }
- 
- .firma{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: "Redressed";
-    font-size: 60px; 
-    margin-top: 20px;
-    text-shadow: 1px 1px 2px black;
- }
-
- .firma:hover{
-   color: rgb(0, 165, 206);
- }
-
- .wall{
-    margin-top: 30px;
-    height: 100%vh;
-    padding: 10%;
-    background-image: linear-gradient(to top, rgba(132, 250, 175, 0.315) 0%, rgba(143, 210, 244, 0.301) 100%), url(https://i.postimg.cc/ZKLhmW5w/maribel-wall.png);  
-    background-repeat: no repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;     
- }
-
- .fotografa{
-    text-align: center;    
-    font-size:17px;
- }
-
- .testigo-comilla{
-    text-align: left;
-    color:rgb(0, 204, 255);
-    font-family: "Redressed";
-    font-size: 60px; 
-    padding-right: 20px; 
-    padding-left: 20px;
- }     
- 
- .testigo-name{
-    color: white;
-    font-size: 25px;  
-    margin-top:30px;
- }
-
- .testigo-ocupacion{
-    color: white;
-    font-size: 20px; 
-    padding-right: 20px; 
-    padding-left: 20px;
-    font-style: italic; 
-
- }
-
- .testigo-data{
-    text-align: justify;   
-    font-size:20px;
-    padding-right: 20px; 
-    padding-left: 20px;
-    margin-bottom:30px;
-    color: white;
- }   
-
- .testigo{
-    display:block;  
-    width: 120px; height: 120px;
-    margin-top:30px;
-    margin-left: auto;
-    margin-right: auto;
- }
-
- .footer-coachers{
-    margin-top:15px;
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 35px;
- }
-
- .footer-sub{
-    text-align: center;
-    color: white;
-    font-family: "Redressed";
-    font-size: 20px;
-    }
-
- .footer-correo{
-    margin-top: 10px; 
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-size: 15px;
-    margin-bottom: 10px;
-    }   
-
-  .Icon-footer{
-    width:25px; height:25px;  
- }   
-
-    .footer-autor{
-        margin-top: 35px; 
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        }   
-
- .footer-autor-email{
-    margin-top: 10px; 
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-size: 15px;
- }
-
- .footer-derechos{
-    margin-top: 10px;
-    text-align: center;
-    color:rgb(0, 204, 255);
-    font-size: 15px;
-    margin-bottom: 10px;
- }
-
- .footer-maribel{
-    text-align: center;
-    color: white;
-    font-family: "Redressed";
-    font-size: 40px;
-    margin-top: 25px;
- }
-
- .footer-maribel:hover{
-   color: rgb(0, 165, 206);
- }
-
- .footer-web{
-    margin-top: 10px; 
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-size: 15px;
- }
-
- .linea{
- background-color:  rgb(0, 204, 255); 
- padding: 1px;
 }
 
- .whatsapp {
-   position:fixed;
-   width:60px;
-   height:60px;
-   bottom:40px;
-   right:40px;
-   background-color:#000000;
-   color: rgb(0, 204, 255);
-   border-radius:50px;
-   text-align:center;
-   font-size:30px;
-   z-index:100;
- }
- 
- .whatsapp-icon {
-   margin-top:13px;
- }
+.Luna-data {
+  text-align: center;
+  color: black;
+  font-family: "Redressed";
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
 
- 
+.Luna-data2,
+.Luna-data3,
+.Luna-data4 {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
- 
+.comilla {
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-family: "Redressed";
+  font-size: 60px;
+}
+
+.Luna-data5 {
+  text-align: center;
+  font-size: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.maribel-icon {
+  display: block;
+  margin: auto;
+  width: 70px;
+  margin-top: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.firma {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Redressed";
+  font-size: 60px;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.firma:hover {
+  color: rgb(0, 165, 206);
+}
+
+.wall {
+  margin-top: 30px;
+  height: 100%vh;
+  padding: 10%;
+  background-image: linear-gradient(
+      to top,
+      rgba(132, 250, 175, 0.315) 0%,
+      rgba(143, 210, 244, 0.301) 100%
+    ),
+    url(https://i.postimg.cc/ZKLhmW5w/maribel-wall.png);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fotografa {
+  text-align: center;
+  font-size: 17px;
+}
+
+.testigo-comilla {
+  text-align: left;
+  color: rgb(0, 204, 255);
+  font-family: "Redressed";
+  font-size: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.testigo-name {
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.testigo-ocupacion {
+  color: white;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.testigo-data {
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.testigo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-coachers {
+  margin-top: 15px;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.footer-sub {
+  text-align: center;
+  color: white;
+  font-family: "Redressed";
+  font-size: 20px;
+}
+
+.footer-correo {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.Icon-footer {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-autor {
+  margin-top: 35px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-autor-email {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.footer-derechos {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-maribel {
+  text-align: center;
+  color: white;
+  font-family: "Redressed";
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.footer-maribel:hover {
+  color: rgb(0, 165, 206);
+}
+
+.footer-web {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.linea {
+  background-color: rgb(0, 204, 255);
+  padding: 1px;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #000000;
+  color: rgb(0, 204, 255);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
